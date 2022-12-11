@@ -1,0 +1,8 @@
+version: '3.9'
+
+services:
+  nodeapi:
+    container_name: nodeapi
+    ports:
+      - 4000:3000
+    build: .
